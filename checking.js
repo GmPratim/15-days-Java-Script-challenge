@@ -36,5 +36,13 @@
 
 // console.log(typeof neverDeclared);
 
-console.log(typeof rider);
-let rider = 'Ravi';
+// console.log(typeof rider);
+// let rider = 'Ravi';
+console.log(typeof null);
+// let value = [];
+// let value2 = ["a", "b", "c"];
+
+
+// console.log(typeof []);
+// console.log(Array.isArray(value));
+// console.log(Array.isArray(value2));
