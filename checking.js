@@ -49,8 +49,30 @@
 
 
 
-// let va = (19.99 + 0.01).toFixed()
-let va = (0.1+0.2).toFixed(1)
+// // let va = (19.99 + 0.01).toFixed()
+// let va = (0.1+0.2).toFixed(1)
 
 
-console.log(va)
+// console.log(va)
+
+// const address = 'Flat 4, DOMLUR Layout'
+// console.log(address.startsWith('Flat'), address.endsWith('layout'), address.indexOf('DOMLUR'), address.indexOf('HSR'));
+
+
+// function slugify(item) {
+//     let newIt = item.trim().toLowerCase()
+//     return newIt.split(',')
+// }
+
+// console.log(slugify(' Masala Chai Special '))
+
+function maskPhone(phone) {
+  // throw new Error('Not implemented');
+  let half = ((phone - 4) + 1)
+  let Num1 = phone.slice(0, half)
+  let NumReplace = Num1.replaceAll(Num1 , "*")
+  return NumReplace
+
+}
+
+console.log(maskPhone('1234567890'))
