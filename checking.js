@@ -66,13 +66,23 @@
 
 // console.log(slugify(' Masala Chai Special '))
 
-function maskPhone(phone) {
-  // throw new Error('Not implemented');
-  let half = ((phone - 4) + 1)
-  let Num1 = phone.slice(0, half)
-  let NumReplace = Num1.replaceAll(Num1 , "*")
-  return NumReplace
+// function maskPhone(phone) {
+//   // throw new Error('Not implemented');
+//   let half = ((phone - 4) + 1)
+//   let Num1 = phone.slice(0, half)
+//   let NumReplace = Num1.replaceAll(Num1 , "*")
+//   return NumReplace
 
-}
+// }
 
-console.log(maskPhone('1234567890'))
+// console.log(maskPhone('1234567890'))
+// const rider = 'Sunita';
+// const area = 'Domlur';
+// const slip = `Rider: ${rider}
+// Area: ${area}`;
+// console.log(slip);
+// console.log(slip.split('\n'));
+// console.log(slip === 'Rider: Sunita\nArea: Domlur');
+
+
+console.log(['chai', 'bun maska'].toString());
