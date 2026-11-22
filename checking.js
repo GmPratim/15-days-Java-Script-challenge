@@ -85,4 +85,15 @@
 // console.log(slip === 'Rider: Sunita\nArea: Domlur');
 
 
-console.log(['chai', 'bun maska'].toString());
+// console.log(['chai', 'bun maska'].toString());
+
+// console.log('5' + 3);
+// console.log('5' - 3);
+// console.log('5' * '2')
+// console.log(true + 1)
+// console.log(1 + 2 + '3')
+// console.log('1' + 2 + 3)
+// console.log('chai' * 2)
+
+console.log([] == false)
+console.log (NaN == NaN)
