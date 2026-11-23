@@ -95,5 +95,24 @@
 // console.log('1' + 2 + 3)
 // console.log('chai' * 2)
 
-console.log([] == false)
-console.log (NaN == NaN)
+// console.log([] == false)
+// console.log (NaN == NaN)
+
+
+// function stockLabel(count) {
+//   const me = count !== null && count !== undefined;
+//   console.log(me)
+//   return me ? `${count} left` : 'Not counted yet';
+
+// }
+// console.log(stockLabel(null))
+
+// function isEmptyCart(cart) {
+//     // console.log(cart)
+//     const me = typeof cart !== "string";
+//     return me ? false : true;
+// }
+
+// console.log(isEmptyCart([]))
+const a = NaN
+console.log(a)
