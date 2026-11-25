@@ -24,14 +24,13 @@
 // Stuck? Press "What do I do next?" under this task. Write
 // your code in place of the throw line.
 export function parseQty(text) {
-//   throw new Error('Not implemented');
-if (text.trim() === ''){
-  return null
-}
-const num = Number(text.trim())
+  if (text.trim() === '') {
+    return null;
+  }
 
-return Number.n(num) ? num : null
+  const num = Number(text.trim());
 
+  return Number.isNaN(num) ? null : num;
 }
 
 // Task 2: a label for every kind of reading

@@ -114,5 +114,5 @@
 // }
 
 // console.log(isEmptyCart([]))
-const a = NaN
-console.log(a)
+const a = []
+console.log(a.length)
